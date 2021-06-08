@@ -1,0 +1,23 @@
+<button (click)="goToPage('employee/create')">Add new Employee</button>
+
+
+<div>
+  <h1>Listagem de funcionários</h1>
+</div>
+
+<div>
+  <table>
+    <tr>
+    <th>Código</th>
+    <th>Nome</th>
+    <th>Salário</th>
+    <th>Sexo</th>
+    </tr>
+    <tr  *ngFor="let e of employeeList">
+      <td>{{e.id}}</td>
+      <td>{{e.name}}</td>
+      <td>{{e.salary}}</td>
+      <td>{{e.gender}}</td>
+    </tr>
+  </table>
+</div>

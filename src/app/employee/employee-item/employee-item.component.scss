@@ -1,0 +1,26 @@
+h1{
+  color: green;
+}
+
+#cancel, #save{
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 60px;
+  margin: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#save{
+  background-color: green;
+
+}
+
+div{
+  margin: 15px 0;
+}
+
+label{
+  margin-right: 20px;
+  padding: 20px;
+}

@@ -12,7 +12,8 @@ export class EmployeeComponent implements OnInit {
 
   employeeList: Employee[] = [];
 
-  constructor(private router: Router, private employeeService: EmployeeService) {}
+  constructor(private router: Router,
+              private employeeService: EmployeeService) {}
 
   ngOnInit(): void {
     this.employeeList = this.employeeService.getALl();
